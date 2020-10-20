@@ -15,7 +15,7 @@ def creditz():
     print(setuph.format("   /:/_______/:/    /:/     /:/    /:/_____/    /:/"))
     print(setuph.format("  /:/       /:/    /:/     /:/    /:/          /:/"))
     print(setuph.format(" /:/       /:/    /:/     /:/    /:/            /:/"))
-    print(setuph.format("/:/       /:/igh   /:::::/rbit  /:/roton         /:::::/annon"))
+    print(setuph.format("/:/       /:/      /:::::/      /:/              /:::::/    "))
     time.sleep(2)
 
     print()
@@ -34,16 +34,7 @@ def creditz():
 creditz()
 HOPC = setupo.format("[HOPC] ")
 print(setupa.format(HOPC + "Welcome to HOPC beta version"))
-answr = str(input(HOPC + "write ready if you ready:  "))
-if not answr == "ready":
-    raise SystemExit(228)
-print(HOPC + "Okay, who you want to start spammin'g?")
-ready = str(input(HOPC + "0 = tupoy, 1 = custum number:   "))
-if ready == '0':
-    _phone = '79940006010'
-    input(HOPC + "M8 Are u sure to FIRE DEM WIF LAZER?!:   ")
-else:
-    _phone = input(HOPC + "Write number to FIRE DEM WIF LAZER!!!:   ")
+_phone = input(HOPC + "number:   ")
 if _phone[0] == '+':
     _phone = _phone[1:]
 if _phone[0] == '8':
